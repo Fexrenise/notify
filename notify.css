@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Birinci hisse */
+
+header{
+    background-image: url('header.png');
+    background-size: cover;
+}
+.line hr{
+    height: 10px;
+    width: 100%;
+    background-color: #2dcb71;
+    border: none;
+}
+.home{
+    padding: 175px 0 175px 125px;
+}
+.home p{
+    width: 469px;
+    font: 500 24px "Open Sans";
+    line-height: 36px;
+    color: #ffffff;
+    padding: 25px 0 30px 0;
+}
+.icon a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #342219;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+.icon a i{
+    color: #b09c93;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon a:nth-child(2){
+    margin: 0 20px;
+}
+.icon a:hover{
+    background-color: #2dcb71;
+}
+.icon a i:hover{
+    color: #ffffff;
+}
+/* Ikinci hisse */
+.second{
+    display: flex;
+    padding: 60px 0 50px 0;
+    justify-content: center;
+    text-align: center;
+}
+.one{
+    padding-left: 95px;
+}
+.second .one a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2dcb71;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.second .one a i{
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.second .one h1{
+    padding: 25px 0;
+    font-size: 22px;
+    line-height: 18px;
+    color: #222222;
+    font-weight: 600;
+    font-family: "Raleway";
+    text-align: center;
+}
+.second .one p{
+    width: 350px;
+font-size: 16px;
+line-height: 26px;
+color: #848484;
+font-family: "Open Sans";
+}
+/* Üçüncü hisse */
+#three{
+    background-color: #e3e3e3;
+}
+.video{
+    display: flex;
+    padding: 60px 0;
+}
+.form{
+    display: flex;
+}
+.form input{
+    width: 300px;
+    border: 1px solid #e3e3e3;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 20px 0 20px 25px;
+    outline: none;
+    font-size: 18px;
+    line-height: 18px;
+    color: #848484;
+    font-family: "Open Sans";
+}
+.form button{
+    width: 145px;
+    border: none;
+    background-color: #2dcb71;
+    color: #ffffff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 24px 25px 24px 0;
+    font-size: 22px;
+    line-height: 18px;
+    font-weight: 700;
+    font-family: "Raleway";
+}
+.text{
+    padding-right: 140px;
+}
+.text h1{
+    font-size: 22px;
+line-height: 18px;
+color: #222222;
+font-weight: 600;
+font-family: "Raleway";
+}
+.text p{
+    width: 541px;
+font-size: 16px;
+line-height: 26px;
+color: #848484;
+font-family: "Open Sans";
+padding: 25px 0;
+}
+/* Dördüncü hisse */
+.test{
+    padding-top: 60px;
+}
+.test p{
+    width: 887px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #848484;
+    font-style: italic;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-left: 180px;
+}
+.test h1{
+    font-size: 18px;
+    line-height: 20px;
+    color: #2e2e2e;
+    font-weight: 700;
+    font-family: "Raleway";
+    text-align: center;
+    padding: 25px 0 30px 0;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+.photo img{
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+    background-color: #2dcb71;
+}
+
+.photo img:hover{
+    mix-blend-mode: multiply;
+    opacity: 0.7;
+}
+.say{
+    text-align: center;
+}
+.say h1{
+    font-size: 24px;
+line-height: 24px;
+font-weight: 600;
+font-family: "Raleway";
+padding-top: 55px;
+}
+.say p{
+    font-size: 16px;
+line-height: 26px;
+color: #848484;
+font-family: "Open Sans";
+padding: 25px 0;
+}
+.contact{
+    padding-bottom: 60px;
+}
+.contact a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #d4d4d4;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 10px;
+}
+.contact a i{
+    font-size: 25px;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contact a:hover{
+    background-color: #62d895;
+}
+/* Sonuncu hisse */
+footer{
+    background-color: #e3e3e3;
+}
+footer ul{
+    text-align: center;
+    padding: 60px 0;
+}
+footer ul li{
+    display: inline-block;
+    padding-left: 40px;
+}
+footer ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    color: #848484;
+    font-family: "Open Sans";
+}
+
+@media screen and (max-width: 500px){
+    .container{
+        max-width: 400px;
+        margin: auto;
+    }
+    header{
+        background-image: url('header.png');
+        background-size: cover;
+    }
+}
